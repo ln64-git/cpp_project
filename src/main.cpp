@@ -1,6 +1,11 @@
-#include <iostream>
+#include "examples/01_debugging_basics/debugging_basics.h"
+// #include "examples/02_debugging_advanced/advanced_debugging.h"
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+
+  // Uncomment to run example worksheets:
+  debugging_basics::run_all();
+  // advanced_debugging::run_all();
+
   return 0;
 }
